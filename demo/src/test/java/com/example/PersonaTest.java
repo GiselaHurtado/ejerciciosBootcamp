@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 public class PersonaTest {
 	@Test
 	void createPersona() {
-		var p = new Persona(1, "Pepe");
+		 p = new Persona(1, "Pepe");
 		
 		assertNotNull(p);
 		assertAll("Contructor", 
